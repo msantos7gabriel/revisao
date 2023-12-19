@@ -1,0 +1,56 @@
+body {
+    background-color: green;
+    margin: 10px;
+
+}
+
+.box {
+    background-color: white;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+        "menuL conteudo menuR"
+        "rodape rodape rodape";
+    grid-template-columns: 200px 1400px 170px;
+    grid-template-rows: 200px 700px 100px;
+    padding: 30px 35px;
+
+
+}
+
+.titulo {
+    background-color: #A393BF;
+    grid-area: titulo;
+}
+
+.menuL {
+    background-color: #9882AC;
+    grid-area: menuL;
+
+}
+
+.menuL .box1 {
+
+
+    background-color: pink;
+
+}
+
+.conteudo {
+
+    grid-area: conteudo;
+    background-color: #73648A;
+
+}
+
+.menuR {
+    grid-area: menuR;
+    background-color: #453750;
+
+}
+
+.rodape {
+
+    grid-area: rodape;
+    background-color: #0C0910;
+    color: white;
+}

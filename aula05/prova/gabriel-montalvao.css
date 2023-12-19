@@ -1,0 +1,175 @@
+body {
+
+    background-color: white;
+    margin: 0px;
+    font-size: 15px;
+    color: black;
+    border: 3px solid black;
+}
+
+p {
+    background-color: yellow;
+}
+
+
+.c2 p {
+    background-color: green;
+}
+
+.c3 p {
+    background-color: green;
+}
+
+.c4 p {
+    background-color: green;
+}
+
+
+
+.c1 {
+
+    background-color: rgb(0, 0, 255, 0.5);
+    height: 100px;
+    width: 800px;
+}
+
+.c2 {
+    background-color: white;
+    margin-left: 30px;
+    height: 50px;
+    width: 400px;
+
+}
+
+.c3 {
+    background-color: red;
+    margin-left: 30px;
+    height: 50px;
+    width: 400px;
+}
+
+.c4 {
+
+    background-color: black;
+    margin-left: 30px;
+    height: 50px;
+    width: 400px;
+}
+
+
+#id1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0px 50px;
+}
+
+#id1 p {
+    background-color: white;
+    text-align: left;
+}
+
+
+#id2 {
+    height: 150px;
+    width: 200px;
+    background-color: green;
+    margin: 0px 100px;
+}
+
+#id2 p {
+    background-color: white;
+    text-align: right;
+}
+
+#id3 {
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    margin: 0px 200px;
+}
+
+
+.box1 {
+
+    background-color: pink;
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.box2 {
+    height: 300px;
+    background-color: green;
+    width: 800px;
+    border: 2px solid black;
+}
+
+/*Questão 9*/
+
+#q1 {
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 99, 71, 0);
+
+}
+
+#q2 {
+
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255, 99, 71, 0.2);
+}
+
+#q3 {
+
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 99, 71, 0.4);
+}
+
+#q4 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 99, 71, 0.6);
+
+}
+
+
+/*Questão 10*/
+
+.cl1 {
+
+    background-color: blue;
+    color: rgb(255, 255, 0);
+    height: 100px;
+    width: 100px;
+}
+
+.cl2 {
+    background-color: green;
+    color: rgb(0, 128, 0);
+    height: 150px;
+    width: 150px;
+}
+
+.cl3 {
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+    height: 160px;
+    width: 160px;
+}
+
+.cl4 {
+    background-color: #ee82ee;
+    color: rgb(128, 128, 128);
+    height: 180px;
+    width: 180px;
+}
+
+#pr1 .cl1 {
+
+    font-size: 150px;
+    color: #c8a2c8;
+}

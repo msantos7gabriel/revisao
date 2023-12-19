@@ -1,0 +1,8 @@
+div {
+    background-image: url(images/pcframe.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: scroll;
+    height: 1024px;
+    width: 600px;    
+}

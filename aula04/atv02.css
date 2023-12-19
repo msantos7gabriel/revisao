@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+
+#fora {
+    height: 1000px;
+    background-color: yellow;
+    
+}
+
+#header {
+    background-color: rgb(255, 255, 0, 0.5);
+    height: 100px;
+    border-bottom: 2px solid black;
+    background-image: url(images/pcframe.png);
+    background-size: 90px 70px;
+    background-repeat: no-repeat;
+    background-position: 1700px 40px;
+    padding-top: 50px;
+
+}
+
+h1{
+    border: 3px solid black;
+    width: 150px;
+    margin: 0 100px;
+    text-align: center;
+    border-radius: 15px;
+
+}

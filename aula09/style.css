@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+.box {
+  width: 80%;
+
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "section asside"
+    "footer footer";
+  grid-template-columns: 80vw 20vw;
+  grid-template-rows: 10vh 80vh 10vh;
+}
+header {
+  grid-area: head;
+  background: yellow;
+}
+
+section {
+  grid-area: section;
+  display: flex;
+
+}
+aside {
+  grid-area: asside;
+  background-color: red;
+}
+
+footer {
+  grid-area: footer;
+  background: blue;
+}
+
+.c1,
+.c2,
+.c3 {
+  width: 100%;
+  height: 33.33%;
+  background-color: green;
+}
+.c2 {
+    height: 50%;
+  background-color: pink;
+}

@@ -1,0 +1,35 @@
+.container {
+
+    display: grid;
+    grid-template-areas: "header header"
+        "lmenu main";
+    grid-template-columns: 100px 1400px;
+    grid-template-rows: 100px 800px;
+
+}
+
+.header {
+
+    grid-area: header;
+    background-color: green;
+}
+
+.lmenu {
+
+    grid-area: lmenu;
+    background-color: red;
+}
+
+.main {
+
+    grid-area: main;
+    background-color: blue;
+
+}
+
+.footer {
+
+    grid-area: footer;
+    background-color: yellow;
+
+}

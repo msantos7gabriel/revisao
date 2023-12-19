@@ -1,0 +1,50 @@
+body {
+
+    margin: 0;
+    background-color: rgb(33, 150, 243);
+}
+
+.box {
+
+    display: grid;
+    grid-template-areas: 'head head head'
+        'menu m r'
+        'menu footer footer';
+    grid-template-rows: 100px 700px 140px;
+    grid-template-columns: 300px 900px auto;
+    gap: 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#header {
+    grid-area: head;
+}
+
+#menu {
+    grid-area: menu;
+    padding-top: 300px;
+}
+
+#right {
+    grid-area: r;
+    padding-top: 300px;
+}
+
+#main {
+    grid-area: m;
+    padding-top: 300px;
+}
+
+#footer {
+    grid-area: footer;
+    padding-top: 25px;
+}
+
+.categoria {
+
+    background-color: rgb(211, 234, 253);
+    outline: 10px solid;
+    font-family: 'Zeyada', cursive;
+}
+

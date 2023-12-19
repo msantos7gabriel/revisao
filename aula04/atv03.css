@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 100px 200px;
+}
+
+#header {
+    background-image: url(images/pcframe.png);
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: 1400px 100px;
+    background-color: yellow;
+}

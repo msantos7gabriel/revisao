@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    background-image: linear-gradient(180deg, #343A40 50%, #212529);
+    background-attachment: fixed;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 200px 600px;
+    grid-template-rows: 250px 100px;
+    background-color: #212529;
+    border-radius: 10px;
+    margin: 250px 400px;
+    box-shadow: 1px 1px 10px #adb5bd31;
+
+}
+
+#avatar {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+
+.perfil {
+
+    color: #F8F9FA;
+    text-align: right;
+
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#rep {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.repo {
+    margin: 10px 100px;
+    color: white;
+    text-align: justify;
+
+
+}
+
+#socials {
+
+    text-align: left;
+    font-size: 40px;
+}
+
+li {
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+li:hover {
+
+    color: #6C757D;
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+link:visited {
+    text-decoration: underline;
+    color: #E9ECEF;
+}
+
+.socials {
+    grid-column: 1/3;
+}
+
+.socials #insta {
+
+
+    text-align: center;
+    margin: 10px 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    background-image: linear-gradient(225deg, #0D42E0 5%, #CF32B3, #FF1B9C, #FF4443, #FF7D01, #FFCC56 95%);
+
+}

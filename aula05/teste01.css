@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+#header {
+
+    height: 200px;
+    width: 1875px;
+    background-color: #39FF14;
+    border: 3px solid red;
+}
+
+#header h1 {
+
+    height: 30px;
+    width: 400px;
+    background-color: lightgrey;
+    margin-top: 75px;
+    margin-left: 750px;
+    color: red;
+    font-size: 30px;
+
+}   
+
+#body {
+    margin: 1px 0;
+    height: 500px;
+    width: 1875px;
+    background-color: yellow;
+    border: 3px solid red;
+}
+
+#body #titulo {
+
+    height: 20px;
+    width: 1855px;
+    background-color: brown;
+    margin: 20px 10px;
+    color: black;
+    font-size: 15px;
+
+}
+
+#body #div01 {
+
+    
+    height: 50px;
+    width: 450px;
+    background-color: purple;
+    margin: 0px 10px;
+    color: black;
+    font-size: 20px;
+
+}
+
+#body #div02 {
+
+    height: 50px;
+    width: 450px;
+    background-color: blue;
+    margin: 15px 10px;
+    color: black;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+#body #div03 {
+
+    height: 50px;
+    width: 450px;
+    background-color: red;
+    margin: 15px 550px;
+    color: black;
+    font-size: 20px;
+
+}
+
+#body #div04 {
+
+    height: 50px;
+    width: 450px;
+    background-color: #98fb00;
+    margin: 15px 1050px;
+    color: black;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+#bottom {
+    height: 200px;
+    width: 1880px;
+    background-color: #39FF14;
+    margin: 20px 1px;
+}
+
+#author {
+    text-align: center;
+    height: 20px;
+    width: 1880px;
+    background-color: red;
+    padding-top: 5px;
+}

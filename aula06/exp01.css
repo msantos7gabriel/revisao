@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+
+}
+
+.box {
+    background-color: black;
+    height: 600px;
+    border: 10px solid pink;
+
+}
+
+.titulo {
+    background-color: blue;
+    height: 100px;
+
+
+}
+
+.menuL {
+    background-color: red;
+    height: 100px;
+}
