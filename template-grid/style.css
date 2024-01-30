@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+}
+
+.box {
+  display: grid;
+  grid-template-areas:
+    "left header right"
+    "left main right"
+    "bottom bottom bottom";
+  grid-template-columns: 300px 1fr 200px;
+  grid-template-rows: 200px 680px 100px;
+}
+.header {
+  grid-area: header;
+  background-color: red;
+}
+.header > a {
+  text-align: center;
+  margin: 100px;
+  font-size: 20px;
+}
+.left {
+  grid-area: left;
+  background-color: purple;
+}
+img {
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+}
+.left > .box1 {
+  background-color: yellow;
+  width: 250px;
+  height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+.left > .box1 > p {
+  padding-top: 25px;
+}
+.left > .box2 {
+  background-color: lime;
+  width: 250px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.right {
+  grid-area: right;
+  background-color: rosybrown;
+}
+.right > p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.right > h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.main {
+  grid-area: main;
+  background-color: yellow;
+}
+.bottom {
+  grid-area: bottom;
+  background-color: green;
+}
