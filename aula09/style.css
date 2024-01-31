@@ -2,15 +2,13 @@
   margin: 0;
 }
 .box {
-  width: 80%;
-
   display: grid;
   grid-template-areas:
     "head head"
     "section asside"
     "footer footer";
-  grid-template-columns: 80vw 20vw;
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 200px 550px 230px;
 }
 header {
   grid-area: head;
@@ -20,7 +18,7 @@ header {
 section {
   grid-area: section;
   display: flex;
-
+  flex-direction: column;
 }
 aside {
   grid-area: asside;
@@ -30,6 +28,21 @@ aside {
 footer {
   grid-area: footer;
   background: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.p1,
+.p2,
+.p3 {
+  width:25%;
+  height: 100%;
+  background-color: pink;
+}
+
+.p2{
+  width:50%;
+  background-color: lightblue;
+
 }
 
 .c1,
@@ -40,6 +53,34 @@ footer {
   background-color: green;
 }
 .c2 {
-    height: 50%;
+  height: 50%;
   background-color: pink;
+}
+
+@media (max-width: 992px) {
+  .box {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "head"
+      "section "
+      "asside"
+      "footer";
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .p1,
+  .p2,
+  .p3 {
+    margin: 0;
+    border: solid 1px white;
+    width: 49%;
+  }
+  .p2 {
+    width: 100%;
+    order: -1;
+  }
 }
